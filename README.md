@@ -116,7 +116,7 @@ npm install
 
 ```
 PORT=5000
-# DB_URI=mongodb+srv://your-db (optional if storing messages)
+# DB_URI=mongodb+srv://your-db
 
 
 **Run backend**:
