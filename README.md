@@ -3,7 +3,7 @@
 An immersive, story-driven, 3D animated manga-style storytelling website with a **React + Vite frontend** and **Node.js/Express backend** for **Contact Us form handling**.  
 It delivers a **cinematic, professional UI/UX** inspired by top creative studios and showcases **interactive storytelling, 3D mascots, and microinteractions**.
 
----
+
 
 ## 🌟 Key Features
 
@@ -19,11 +19,10 @@ It delivers a **cinematic, professional UI/UX** inspired by top creative studios
   - **Message** – `Write your message here...`
 - **⚡ Optimized & Modular** – Lazy loading, structured components, and errorless operation.
 
----
 
 ## 📁 Project Structure
 
-```
+
 
 code-of-resilience/
 │
@@ -76,9 +75,7 @@ code-of-resilience/
 ├── README.md
 └── .gitignore
 
-````
 
----
 
 ## ⚡ Backend Overview
 
@@ -92,12 +89,12 @@ Body: {
   email: "user@example.com",
   message: "Hello! This is my message."
 }
-````
+
 
 * Stores submissions in DB (optional) or logs them.
 * Sends response back to frontend for toast notification.
 
----
+
 
 ## 🛠️ Installation & Execution
 
@@ -106,33 +103,31 @@ Body: {
 ```bash
 git clone https://github.com/yourusername/code-of-resilience.git
 cd code-of-resilience
-```
 
----
 
 ### 2️⃣ Setup and Run Backend
 
 ```bash
 cd backend
 npm install
-```
+
 
 **Create `.env` file**:
 
 ```
 PORT=5000
 # DB_URI=mongodb+srv://your-db (optional if storing messages)
-```
+
 
 **Run backend**:
 
 ```bash
 npm start
-```
+
 
 Backend runs on: **[http://localhost:5000](http://localhost:5000)**
 
----
+
 
 ### 3️⃣ Setup and Run Frontend
 
@@ -142,28 +137,28 @@ npm install
 npm install framer-motion three @react-three/fiber @react-three/drei react-hot-toast gsap
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
-```
+
 
 **Run frontend**:
 
 ```bash
 npm run dev
-```
+
 
 Frontend runs on: **[http://localhost:5173](http://localhost:5173)**
 
----
+
 
 ### 4️⃣ Connecting Frontend & Backend
 
 * The **ContactUs.jsx** component sends form data to:
 
-  ```
+
   POST http://localhost:5000/api/contact
-  ```
+
 * On success, the user gets a **toast notification** confirming submission.
 
----
+
 
 ## 🎨 Interactive Experience
 
@@ -173,11 +168,10 @@ Frontend runs on: **[http://localhost:5173](http://localhost:5173)**
 * **Interactive hover effects, marquee, ripple effects**
 * **Toast confirmations for Contact Us submissions**
 
----
 
 
 > **Tip:** For the best experience, run **both backend and frontend** together, open in fullscreen, and scroll slowly to enjoy all **animations, microinteractions, and 3D mascot effects**.
 
-```
 
----
+
+
