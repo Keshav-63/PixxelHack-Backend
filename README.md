@@ -1,15 +1,3 @@
-Thanks for the clarification! Since your project now includes a **Node.js backend** for handling **Contact Us submissions**, I’ll **update the README.md** to reflect:
-
-1. **Full-stack setup (React + Vite frontend + Node/Express backend)**
-2. **Contact form handling with backend endpoint**
-3. **Instructions to run both frontend and backend**
-4. **Clear folder structure for frontend and backend**
-
-Here’s the **professional updated README.md**:
-
----
-
-```markdown
 # Code of Resilience
 
 An immersive, story-driven, 3D animated manga-style storytelling website with a **React + Vite frontend** and **Node.js/Express backend** for **Contact Us form handling**.  
